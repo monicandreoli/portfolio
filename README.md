@@ -1,4 +1,4 @@
 # portfolio
 my portfolio page
 
-This repository include my first portfolio webpage.
+In this repository I developed my portfolio webpage.
