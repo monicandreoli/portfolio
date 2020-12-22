@@ -1,0 +1,114 @@
+#contact {
+    @include section-basics();
+    background-color: transparent;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.9);
+    padding: 0 5vh;
+    text-align: center;
+
+    .scroll {
+        display: flex;
+        position: relative;
+        justify-self: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .scroll span {
+        display: block;
+        color: #fff;
+        font-size: 20px;
+        position: absolute;
+    }
+
+    .scroll span.one {
+        animation: animeone 3s infinite linear;
+        opacity: 0;
+        transform: scale(.4, .4);
+    }
+
+    .scroll span.two {
+        animation: animetwo 3s infinite linear;
+        opacity: 1;
+    }
+
+    .scroll span.three {
+        animation: animethree 3s infinite linear;
+        opacity: 1;
+    }
+
+    .scroll span.four {
+        animation: animefour 3s infinite linear;
+        opacity: 0;
+        transform: scale(.4, .4);
+    }
+
+    .contact-title {
+        @include section-title();
+        padding: 5em 0 1em 0;
+    }
+
+    h5 {
+        @include secondary-title();
+        padding: 2em 0;
+    }
+
+    .contact-container {
+        display: flex;
+        padding: 2em auto;
+        justify-content: center;
+        @media screen and (max-width:360px) {
+           display: inline-block;
+        }
+
+        .mail-box,
+        .phone-box {
+            margin: 1em;
+            padding: 0.5em;
+            border-radius: 20px;
+            box-shadow: -1px white 1px 1px 1px $dark-blue-color;
+            transition: 0.6s ease;
+            width: 30vw;
+            height: 10em;
+            cursor: pointer;
+
+            @media screen and(max-width:786px) {
+                width: 100%;
+            }
+            @media screen and (max-width:450px) {
+                margin: 0.3em;
+                padding: 0.1em;
+            }
+
+            &:hover {
+                box-shadow: -1px 1px 1px 1px $pink-color;
+                transform: scale(1.1);
+
+                i {
+                    color: $pink-color;
+                    transform: rotate(0deg);
+                    transform: scale(1.5);
+                }
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+
+            i {
+                padding: 1em;
+                margin: 0.5em;
+                font-size: 1.4rem;
+                transition: 0.5s ease;
+                border-radius: 15px;
+                position: relative;
+                z-index: inherit;
+                transform: rotate(-20deg);
+            }
+
+            h4 {
+                font-weight: 300;
+            }
+        }
+    }
+}

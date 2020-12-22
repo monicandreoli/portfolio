@@ -1,0 +1,64 @@
+@import "./variables";
+@import "./animation";
+
+//PROJECTS SECTIONS
+@import "./navbar";
+@import "./home";
+@import "./about";
+@import "./portfolio";
+@import "./services";
+@import "./contact";
+
+
+// PAGE SETTING
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+
+html {
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+
+
+button {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.356);
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
+    padding: 1.2em 2em;
+    color: white;
+    margin: 2em 0.5em;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 0.7rem;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    &:hover {
+        background-color: $background-section;
+    }
+    @media screen and (max-width: 450px) {
+        margin: 0.5em;
+    }
+}
+
+
+footer {
+    padding-top: 5em;
+    text-align: end;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+

@@ -1,0 +1,127 @@
+//HOME SECTION
+//social media animation
+@keyframes gelatine {
+
+    from,
+    to {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+
+    25% {
+        -webkit-transform: scale(.9, 1.1);
+        transform: scale(.9, 1.1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.1, .9);
+        transform: scale(1.1, .9);
+    }
+
+    75% {
+        -webkit-transform: scale(.95, 1.05);
+        transform: scale(.95, 1.05);
+    }
+  }
+
+//scroll down arrow
+  @keyframes animeone {
+    0%, 10% {
+      opacity: 0;
+      transform: translateY(0px) scale(.4, .4);
+    }
+    33.3%, 43.3% {
+      opacity: 1;
+      transform: translateY(20px);
+    }
+    66.6%, 76.6% {
+      opacity: 1;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(50px) scale(.4, .4);
+    }
+  }
+  @keyframes animetwo {
+    0%, 10% {
+      opacity: 1;
+      transform: translateY(20px);
+    }
+    33.3%, 43.3% {
+      opacity: 1;
+      transform: translateY(30px);
+    }
+    66.6%, 76.6% {
+      opacity: 0;
+      transform: translateY(50px) scale(.4, .4);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(0px) scale(.4, .4);
+    }
+  }
+  @keyframes animethree {
+    0%, 10% {
+      opacity: 1;
+      transform: translateY(30px);
+    }
+    33.3%, 43.3% {
+      opacity: 0;
+      transform: translateY(50px) scale(.4, .4);
+    }
+    66.6%, 76.6% {
+      opacity: 0;
+      transform: translateY(0px) scale(.4, .4);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(20px);
+    }
+  }
+  @keyframes animefour {
+    0%, 10% {
+      opacity: 0;
+      transform: translateY(50px) scale(.4, .4);
+    }
+    33.3%, 43.3% {
+      opacity: 0;
+      transform: translateY(0px) scale(.4, .4);
+    }
+    66.6%, 76.6% {
+      opacity: 1;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(30px);
+    }
+  }
+
+
+//heading entrace animation
+
+ @-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}

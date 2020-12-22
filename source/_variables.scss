@@ -1,0 +1,74 @@
+// font importation
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,300,500,700,900");
+
+// colors
+$pink-color: #ff1b50;
+$white-color: rgb(214, 214, 214);
+$dark-blue-color: #010822;
+$background-section: #0108227c;
+$purple-color: #431e49;
+
+//heading common details
+@mixin heading {
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: $white-color;
+    font-size: 2.5rem;
+    @media screen and(max-width:640px) {
+        font-size: 2rem;
+    }
+}
+
+//social media animation on hover
+@mixin transition-timing-function($timing) {
+    -webkit-transition-timing-function: $timing;
+    -moz-transition-timing-function: $timing;
+    -o-transition-timing-function: $timing;
+    transition-timing-function: $timing;
+}
+@mixin animation($animation) {
+    -webkit-animation: $animation;
+    -moz-animation: $animation;
+    -o-animation: $animation;
+    animation: $animation;
+}
+
+
+@mixin section-title {
+font-weight: 900;
+font-size: 2rem;
+display: block;
+text-transform: uppercase;
+text-align: center;
+text-shadow: -1px 0 rgba(255, 255, 255, 0.521), 0 1px $purple-color, 1px 0 $purple-color, 0 -1px black;
+
+}
+
+@mixin pink-title-effect {
+    background-image: linear-gradient(#e982b2, $pink-color);
+    background-size: 100%;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-shadow: -1px 0 rgba(255, 255, 255, 0.082), 0 1px $pink-color, 1px 0 $pink-color, 0 -1px black;
+}
+
+@mixin section-basics {
+    background-color: $background-section;
+    color: white;
+    padding: 10vh 5vh;
+    font-size: 0.9rem;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.7em;
+}
+
+@mixin secondary-title {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: $pink-color;
+    font-size: 1rem;
+
+}
