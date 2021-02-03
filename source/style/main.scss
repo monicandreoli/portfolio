@@ -27,33 +27,6 @@ html {
 }
 
 
-button {
-    background-color: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.356);
-    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
-    padding: 1.2em 2em;
-    color: white;
-    margin: 2em 0.5em;
-    cursor: pointer;
-    text-transform: uppercase;
-    border-radius: 50px;
-    font-weight: 700;
-    font-size: 0.7rem;
-
-    a {
-        text-decoration: none;
-        color: white;
-    }
-
-    &:hover {
-        background-color: $background-section;
-    }
-    @media screen and (max-width: 450px) {
-        margin: 0.5em;
-    }
-}
-
-
 footer {
     padding-top: 5em;
     text-align: end;
