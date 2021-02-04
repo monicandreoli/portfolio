@@ -764,6 +764,7 @@ nav ul li a {
 
 #about .container button a {
   text-decoration: none;
+  color: white;
 }
 
 #about .container button:hover {
