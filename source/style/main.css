@@ -625,7 +625,7 @@ nav ul li a {
 
 #home .social_and_arrow_box .social-links a {
   padding: 0.2em;
-  font-size: 1.8rem;
+  font-size: 2rem;
   -webkit-transition: all .3s;
   transition: all .3s;
   color: #ff1b50;
@@ -633,7 +633,8 @@ nav ul li a {
 
 @media screen and (max-width: 450px) {
   #home .social_and_arrow_box .social-links a {
-    font-size: 1.3rem;
+    padding: 0;
+    margin-right: 0.4em;
   }
 }
 
@@ -839,13 +840,12 @@ nav ul li a {
   position: relative;
   height: 20rem;
   width: 30rem;
-  background-image: var(--image-src);
   background-position: 50% 50%;
   background-size: 125%;
   -webkit-transition: background 400ms ease;
   transition: background 400ms ease;
-  -webkit-box-shadow: 0 0 1.5rem rgba(104, 52, 52, 0.25);
-          box-shadow: 0 0 1.5rem rgba(104, 52, 52, 0.25);
+  -webkit-box-shadow: 0 0 1.5rem rgba(82, 41, 41, 0.25);
+          box-shadow: 0 0 1.5rem rgba(82, 41, 41, 0.25);
   overflow: hidden;
 }
 
@@ -993,7 +993,13 @@ nav ul li a {
 }
 
 #portfolio .portfolio-grid .container .card-one {
-  background-image: url(../images/the-taoist.png);
+  background-image: url("../images/the-taoist.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#portfolio .portfolio-grid .container .card-two {
+  background-image: url("../images/moovie-moody.jpg");
   background-position: center;
   background-size: cover;
 }
