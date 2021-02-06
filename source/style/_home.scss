@@ -134,11 +134,12 @@
 
             a {
                 padding: 0.2em;
-                font-size: 1.8rem;
+                font-size: 2rem;
                 transition: all .3s;
                 color: $pink-color;
                 @media screen and (max-width: 450px) {
-                    font-size: 1.3rem;
+                    padding: 0;
+                    margin-right: 0.4em;
                  }
 
             }
