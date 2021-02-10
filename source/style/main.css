@@ -840,13 +840,14 @@ nav ul li a {
   position: relative;
   height: 20rem;
   width: 30rem;
-  background-position: 50% 50%;
-  background-size: 125%;
+  background-position: center;
+  background-size: cover;
   -webkit-transition: background 400ms ease;
   transition: background 400ms ease;
   -webkit-box-shadow: 0 0 1.5rem rgba(82, 41, 41, 0.25);
           box-shadow: 0 0 1.5rem rgba(82, 41, 41, 0.25);
   overflow: hidden;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 390px) {
@@ -994,14 +995,10 @@ nav ul li a {
 
 #portfolio .portfolio-grid .container .card-one {
   background-image: url("../images/the-taoist.png");
-  background-position: center;
-  background-size: cover;
 }
 
 #portfolio .portfolio-grid .container .card-two {
   background-image: url("../images/moovie-moody.png");
-  background-position: center;
-  background-size: cover;
 }
 
 #services {

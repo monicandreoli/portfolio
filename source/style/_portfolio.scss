@@ -28,11 +28,12 @@
                 position: relative;
                 height: 20rem;
                 width: 30rem;
-                background-position: 50% 50%;
-                background-size: 125%;
+                background-position: center;
+                background-size: cover;
                 transition: background 400ms ease;
                 box-shadow: 0 0 1.5rem rgba(82, 41, 41, 0.25);
                 overflow: hidden;
+                cursor: pointer;
 
                 @media screen and (max-width:390px) {
                     height: 5rem;
@@ -153,13 +154,9 @@
 
             .card-one {
                 background-image: url("../images/the-taoist.png");
-                background-position: center;
-                background-size: cover;
             }
             .card-two {
                 background-image: url("../images/moovie-moody.png");
-                background-position: center;
-                background-size: cover;
             }
         }
     }
