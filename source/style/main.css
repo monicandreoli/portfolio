@@ -1100,15 +1100,11 @@ nav ul li a {
   margin: 1em;
   padding: 0.5em;
   border-radius: 20px;
-  -webkit-box-shadow: -1px 1px 1px 1px #0108227c;
-          box-shadow: -1px 1px 1px 1px #0108227c;
   -webkit-transition: 0.6s ease;
   transition: 0.6s ease;
 }
 
 #services .services-container .skills .single-service:hover {
-  -webkit-box-shadow: -1px 1px 1px 1px #ff1b50;
-          box-shadow: -1px 1px 1px 1px #ff1b50;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
@@ -1177,6 +1173,13 @@ nav ul li a {
   }
 }
 
+#services .languages .front-end h3,
+#services .languages .back-end h3,
+#services .languages .tools h3 {
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+}
+
 #services .languages .front-end,
 #services .languages .back-end,
 #services .languages .tools {
@@ -1185,8 +1188,6 @@ nav ul li a {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 20px;
-  -webkit-box-shadow: -1px 1px 1px 1px #0108227c;
-          box-shadow: -1px 1px 1px 1px #0108227c;
   -webkit-transition: 0.6s ease;
   transition: 0.6s ease;
 }
@@ -1196,8 +1197,6 @@ nav ul li a {
 #services .languages .tools:hover {
   -webkit-transform: translateX(50px);
           transform: translateX(50px);
-  -webkit-box-shadow: -1px 1px 1px 1px #ff1b50;
-          box-shadow: -1px 1px 1px 1px #ff1b50;
 }
 
 @media screen and (max-width: 992px) {
@@ -1216,6 +1215,12 @@ nav ul li a {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
   }
+}
+
+#services .languages .front-end:hover:hover h3,
+#services .languages .back-end:hover:hover h3,
+#services .languages .tools:hover:hover h3 {
+  color: #ff1b50;
 }
 
 #services .languages .front-end h3,
@@ -1357,8 +1362,6 @@ nav ul li a {
 
 #contact .contact-container .mail-box:hover,
 #contact .contact-container .phone-box:hover {
-  -webkit-box-shadow: -1px 1px 1px 1px #ff1b50;
-          box-shadow: -1px 1px 1px 1px #ff1b50;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }

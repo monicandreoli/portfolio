@@ -53,11 +53,11 @@
                 margin: 1em;
                 padding: 0.5em;
                 border-radius: 20px;
-                box-shadow: -1px 1px 1px 1px $background-section;
+                //box-shadow: -1px 1px 1px 1px $background-section;
                 transition: 0.6s ease;
 
                 &:hover {
-                box-shadow: -1px 1px 1px 1px $pink-color;
+                //box-shadow: -1px 1px 1px 1px $pink-color;
                 transform: scale(1.1);
                     i {
                         color: $pink-color;
@@ -111,17 +111,22 @@
             padding-top: 2em;
         }
 
+        .front-end h3,
+        .back-end h3,
+        .tools h3 {
+            transition: 0.6s ease-in-out;
+        }
         .front-end,
         .back-end,
         .tools {
             padding: 1em;
             align-items: center;
             border-radius: 20px;
-            box-shadow: -1px 1px 1px 1px $background-section;
+            //box-shadow: -1px 1px 1px 1px $background-section;
             transition: 0.6s ease;
             &:hover {
                 transform: translateX(50px);
-                box-shadow: -1px 1px 1px 1px $pink-color;
+                //box-shadow: -1px 1px 1px 1px $pink-color;
                 @media screen and(max-width:992px) {
                     transform: translateX(10px);
                 }
@@ -129,6 +134,10 @@
                 @media screen and(max-width:600px) {
                     transform: translateX(0px);
                 }
+
+            &:hover h3 {
+                color: $pink-color;
+            }
 
             }
 
