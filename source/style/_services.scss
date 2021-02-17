@@ -52,8 +52,8 @@
             .single-service {
                 margin: 1em;
                 padding: 0.5em;
-                border-radius: 20px;
-                //box-shadow: -1px 1px 1px 1px $background-section;
+                border-radius: 4px;
+                box-shadow: -1px 1px 1px 1px $background-section;
                 transition: 0.6s ease;
 
                 &:hover {
@@ -121,8 +121,8 @@
         .tools {
             padding: 1em;
             align-items: center;
-            border-radius: 20px;
-            //box-shadow: -1px 1px 1px 1px $background-section;
+            border-radius: 4px;
+            box-shadow: -1px 1px 1px 1px $background-section;
             transition: 0.6s ease;
             &:hover {
                 transform: translateX(50px);
