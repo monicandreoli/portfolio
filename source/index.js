@@ -89,16 +89,6 @@ links.forEach(link => {
   });
 });
 
-// Redirection card on click
-const cardOne = document.querySelector(".card-one");
-cardOne.addEventListener("click", () => {
-  window.open('https://the-taoist.herokuapp.com/', '_blank');
-});
-
-const cardTwo = document.querySelector(".card-two");
-cardTwo.addEventListener("click", () => {
-  window.open('https://moody-moovie.herokuapp.com/', '_blank');
-});
 
 // animation on scroll
 AOS.init({
