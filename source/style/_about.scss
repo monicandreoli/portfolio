@@ -21,8 +21,11 @@
         }
 
         .photo {
-            width: 40%;
-            background-image: linear-gradient(#01082285, rgba(0, 0, 0, 0.338)), url('../images/monica.jpg');
+            min-width: 300px;
+            box-shadow: -1px 1px 1px 1px $background-section;
+            background-image: linear-gradient(#01004b5d, rgba(14, 1, 44, 0.068)),url('../images/monica.jpg');
+            padding: 100px;
+            border-radius: 4px;
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;

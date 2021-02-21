@@ -688,9 +688,13 @@ nav ul li a {
 }
 
 #about .container .photo {
-  width: 40%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#01082285), to(rgba(0, 0, 0, 0.338))), url("../images/monica.jpg");
-  background-image: linear-gradient(#01082285, rgba(0, 0, 0, 0.338)), url("../images/monica.jpg");
+  min-width: 300px;
+  -webkit-box-shadow: -1px 1px 1px 1px #0108227c;
+          box-shadow: -1px 1px 1px 1px #0108227c;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#01004b5d), to(rgba(14, 1, 44, 0.068))), url("../images/monica.jpg");
+  background-image: linear-gradient(#01004b5d, rgba(14, 1, 44, 0.068)), url("../images/monica.jpg");
+  padding: 100px;
+  border-radius: 4px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
