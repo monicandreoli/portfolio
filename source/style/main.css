@@ -1008,6 +1008,10 @@ nav ul li a {
   background-image: url("../images/cocktail.jpg");
 }
 
+#portfolio .portfolio-grid .container .card-four {
+  background-image: url("../images/100-pieces.png");
+}
+
 #services {
   background-color: #0108227c;
   color: white;
