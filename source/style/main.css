@@ -468,15 +468,6 @@ nav ul li a {
   }
 }
 
-#home .header-titles .one h1 {
-  font-size: 1.5rem;
-  padding-bottom: 2em;
-  font-weight: 100;
-  letter-spacing: 2px;
-  -webkit-animation: fade-in-bottom 0.7s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: fade-in-bottom 0.7s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-}
-
 #home .header-titles .two h1 {
   font-weight: 300;
   letter-spacing: 2px;
@@ -566,14 +557,6 @@ nav ul li a {
   color: #fff;
   font-size: 20px;
   position: absolute;
-}
-
-#home .social_and_arrow_box .scroll span.one {
-  -webkit-animation: animeone 3s infinite linear;
-          animation: animeone 3s infinite linear;
-  opacity: 0;
-  -webkit-transform: scale(0.4, 0.4);
-          transform: scale(0.4, 0.4);
 }
 
 #home .social_and_arrow_box .scroll span.two {
@@ -1010,6 +993,10 @@ nav ul li a {
 
 #portfolio .portfolio-grid .container .card-four {
   background-image: url("../images/100-pieces.png");
+}
+
+#portfolio .portfolio-grid .container .card-five {
+  background-image: url("../images/votify.png");
 }
 
 #services {

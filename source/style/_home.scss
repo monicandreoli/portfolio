@@ -32,15 +32,6 @@
             text-align: center;
         }
 
-        .one h1 {
-            font-size: 1.5rem;
-            padding-bottom: 2em;
-            font-weight: 100;
-            letter-spacing: 2px;
-            -webkit-animation: fade-in-bottom 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-            animation: fade-in-bottom 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-        }
-
         .two h1 {
             @include heading();
             -webkit-animation: fade-in-bottom 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -92,12 +83,6 @@
             color: #fff;
             font-size: 20px;
             position: absolute;
-        }
-
-        .scroll span.one {
-            animation: animeone 3s infinite linear;
-            opacity: 0;
-            transform: scale(.4, .4);
         }
 
         .scroll span.two {
