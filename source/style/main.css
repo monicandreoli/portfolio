@@ -838,6 +838,73 @@ nav ul li a {
   color: #ff1b50;
 }
 
+#experience {
+  background-color: #0108227c;
+  color: white;
+  padding: 10vh 5vh;
+  font-size: 0.9rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 1.7em;
+}
+
+#experience .experience-title {
+  font-weight: 900;
+  font-size: 2rem;
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: -1px 0 rgba(255, 255, 255, 0.521), 0 1px #431e49, 1px 0 #431e49, 0 -1px black;
+  padding-top: 2em;
+  margin-bottom: 1em;
+}
+
+#experience .container {
+  padding-top: 2em;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70%;
+}
+
+@media screen and (max-width: 1024px) {
+  #experience .container {
+    width: 100%;
+  }
+}
+
+#experience .container .profile {
+  font-weight: 300;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  #experience .container .profile {
+    width: 100%;
+  }
+}
+
+#experience .container .profile h5 {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #ff1b50;
+  font-size: 1rem;
+}
+
+#experience .container .profile small {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+}
+
+#experience .container .profile a {
+  color: #ff1b50;
+}
+
 #portfolio {
   background-color: #0108227c;
   color: white;
@@ -966,12 +1033,21 @@ nav ul li a {
   color: white;
 }
 
-#portfolio .portfolio-grid .container .card figcaption .info h3 {
+#portfolio .portfolio-grid .container .card figcaption .info a {
+  text-decoration: none;
+  color: white;
+}
+
+#portfolio .portfolio-grid .container .card figcaption .info a h3 {
   font-size: 0.8rem;
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 1px;
   margin-bottom: 2px;
+}
+
+#portfolio .portfolio-grid .container .card figcaption .info a:hover {
+  text-decoration: underline;
 }
 
 #portfolio .portfolio-grid .container .card figcaption .info span {
