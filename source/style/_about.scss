@@ -101,3 +101,44 @@
         }
     }
 }
+
+
+#experience {
+    @include section-basics();
+
+    .experience-title {
+        @include section-title();
+        padding-top: 2em;
+        margin-bottom: 1em;
+    }
+    .container {
+        padding-top: 2em;
+        margin: auto;
+        justify-content: center;
+        width: 70%;
+
+        @media screen and (max-width: 1024px) {
+          width: 100%;
+      }
+        .profile {
+            font-weight: 300;
+            text-align: center;
+            @media screen and (max-width: 1024px) {
+                width: 100%;
+            }
+
+            h5 {
+                @include secondary-title();
+            }
+            small {
+              color: rgba(255, 255, 255, 0.5);
+              font-size: 12px;
+            }
+
+            a {
+              color: $pink-color;
+            }
+
+        }
+    }
+  }
